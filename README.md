@@ -1,5 +1,5 @@
 CodSoft Internship
-Web Development Projects
+Web Development Project
 Task 1-Portfolio
 Task 2-Landing Page
 Task 3-Calculator
