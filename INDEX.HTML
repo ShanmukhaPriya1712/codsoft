@@ -1,0 +1,208 @@
+<html>
+    <head>
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/984e4357af.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <h1 class="logo"><span style="color:blue"></span>Portfolio.</h1>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class=" oo fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="oo fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Software Engineer</p>
+
+                    <h1>Hi, I'm <span>Shanmukha Priya Jonnana</span></h1>
+                </div>
+
+            </div>
+        <!-------------about------------>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am a passionate IT student with strong creative and analytical skills,
+        eager to embrace new challenges. 
+        Seeking to build a career in a dynamic organization where
+        I can effectively apply my knowledge. </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web development</span><br>Html/CSS/JS</li><br>
+                                <li><span>Java</span><br>Java Datastructure and algorithms</li><br>
+                                <li><span>Problem solving</span><br>Solved problems in leetcode</li><br>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>1 December 2024 - 30 December 2024</span><br>Internship at CodSoft</li><br>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022 - 2025</span><br>BE(IT) <br>Gokaraju Lailavathi Womens Engineering College</li><br>
+                                <li><span>2019-2022</span><br>DIPLOMA(ECE) <br>Central Institute Of Tool Design</li><br>
+                                <li><span>2018 - 2019</span><br>SSC <br>CM Academy High School</li><br>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------serices-------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Elevate your brand with our expert web design services. We create visually stunning and user-friendly websites tailored to your unique needs.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-python"></i>
+                        <h2>Java Development</h2>
+                        <p>Unlock the power of java with our skilled developers. From robust backend solutions to innovative applications, we bring your ideas to life with expertise and efficiency.</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-codepen"></i>
+                        <h2>Problem Solving</h2>
+                        <p>Tackle challenges head-on with our problem-solving expertise. We provide strategic solutions to navigate complexities and optimize outcomes for your business.</p>
+                        <a href="#">learn more</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--------project----------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">                   
+                    <div class="work">
+                        <img src="e:\pro1.jpg">
+                        <div class="layer">
+                            <h3>Portfolio</h3>
+                            <p>Explore my portfolio showcasing a diverse range of projects, where creativity meets functionality. Each design tells a unique story, capturing the essence of innovation and precision.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="e:\pro2.jpg">
+                        <div class="layer">
+                            <h3>Landing Page</h3>
+                            <p>Step into innovation with our captivating landing page project. Engage visitors instantly with a visually appealing design that reflects your brand essence.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="e:\pro3.jpg">
+                        <div class="layer">
+                            <h3>Calculator using grid</h3>
+                            <p>Experience efficiency with our Grid-based calculator project. Seamlessly designed for intuitive functionality, it offers a user-friendly interface for quick and precise calculations.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+
+            </div>
+        </div>
+        <!-----------contact-------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> priya@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>1234567890</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/Priya"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/Priya"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="Priya  - Resume.pdf" download class="btn btn2">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                    <form name='submit-to-google-sheet'>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Mail" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright© | Priya 2024 | All rights reserved. </p>
+
+            </div>
+        </div>
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+
+            function opentab(tagname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tagname).classList.add("active-tab");
+            }
+
+        </script>
+        <script>
+            var sidemenu=document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwqjJIA_Uj126DLGX8NPidTzt80bYv8NFm17p7wiuFOD5UIqjlUpoTLvRFWqzHDMzVK1Q/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Your response has been submited."
+                    setTimeout(function(){
+                        msg.innerHtml=""
+                    },5000)
+                    form.reset()
+
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
